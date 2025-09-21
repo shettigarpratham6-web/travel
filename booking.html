@@ -1,0 +1,25 @@
+<section>
+  <h2>Booking / Registration</h2>
+  <form onsubmit="showAlert('Booking submitted!'); return false;" style="max-width:400px; margin:auto;">
+    <label>Name:</label><br>
+    <input type="text" name="name" required><br><br>
+
+    <label>Email:</label><br>
+    <input type="email" name="email" required><br><br>
+
+    <label>Destination:</label><br>
+    <select name="destination">
+      <option>Panambur Beach</option>
+      <option>Kukke Temple</option>
+      <option>St. Aloysius Chapel</option>
+    </select><br><br>
+
+    <label>Check-in Date:</label><br>
+    <input type="date" name="checkin" required><br><br>
+
+    <label>Check-out Date:</label><br>
+    <input type="date" name="checkout" required><br><br>
+
+    <button type="submit">Book Now</button>
+  </form>
+</section>
